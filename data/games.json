@@ -1,0 +1,226 @@
+{
+  "ics": {
+    "name": "ゲーミングカレンダー",
+    "summaryFormat": "【{game}】{title} 終了"
+  },
+  "categories": [
+    { "id": "endgame", "name": "高難度・定期", "defaultOn": true },
+    { "id": "event", "name": "イベント", "defaultOn": true },
+    { "id": "campaign", "name": "配布・キャンペーン", "defaultOn": true },
+    { "id": "gacha", "name": "ガチャ", "defaultOn": true },
+    { "id": "shop", "name": "販売・パス", "defaultOn": false },
+    { "id": "other", "name": "その他", "defaultOn": false }
+  ],
+  "defaults": {
+    "maxDays": 70,
+    "exclude": "アップデート|メンテナンス|最新情報|不具合|修正|調整|アンケート|フィッシング|ご注意|注意事項|規約|ルール|HoYoLAB|公平|補填|予告|既知の問題|問題について|正式リリース|事前ダウンロード|コミュニティ|創作|コンテスト|公式放送|返金|セキュリティ|プライバシー|お問い合わせ|カスタマー|ログインボーナス機能|Discord|特設ページ|発売|^EP：|対応に関する|ご案内|ご招待|新規ストーリー|新ステージ|獣神化|コミックス|グッズ|^遊び方$|運極状態|放送局|データ更新",
+    "rules": [
+      { "cat": "gacha", "pattern": "祈願|跳躍|変調|確率UP|ピックアップ|ガチャ|チャンネル|集録|獣神祭|ゴッドフェス|召喚|スカウト|募集|レジェンドフェス|グランデフェス" },
+      { "cat": "shop", "pattern": "パック|紀行|勲功|ファンド|セット販売|ショップ|ストア|パス|おしゃれアイテム|交換所|入荷|強化セット|販売" },
+      { "cat": "campaign", "pattern": "ログイン|キャンペーン|プレゼント|配布|スタンプ|Webイベント|ミッション|贈り物|記念" },
+      { "cat": "other", "pattern": "ボーナス|消費スタミナ|経験値|倍" }
+    ],
+    "fallbackCategory": "event"
+  },
+  "games": [
+    {
+      "id": "genshin",
+      "name": "原神",
+      "color": "#5fb8e8",
+      "currency": "原石",
+      "rules": [
+        { "cat": "endgame", "pattern": "螺旋|幻想シアター|幽境の激戦" }
+      ],
+      "source": {
+        "type": "hoyoverse",
+        "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnList?game=hk4e&game_biz=hk4e_global&lang=ja&bundle_id=hk4e_global&platform=pc&region=os_asia&level=55&uid=100000000"
+      },
+      "recurring": [
+        { "key": "abyss", "title": "深境螺旋（今期の星報酬）", "cat": "endgame", "day": 16, "hour": 4, "tz": 8 },
+        { "key": "theater", "title": "幻想シアター（今期の報酬）", "cat": "endgame", "day": 1, "hour": 4, "tz": 8 }
+      ]
+    },
+    {
+      "id": "starrail",
+      "name": "崩壊：スターレイル",
+      "color": "#b79cf5",
+      "currency": "星玉",
+      "rules": [
+        { "cat": "endgame", "pattern": "混沌の記憶|虚構叙事|末日の幻影|異相の仲裁" }
+      ],
+      "source": {
+        "type": "hoyoverse",
+        "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnList?game=hkrpg&game_biz=hkrpg_global&lang=ja&bundle_id=hkrpg_global&platform=pc&region=prod_official_asia&level=55&uid=100000000",
+        "samples": 6
+      }
+    },
+    {
+      "id": "zzz",
+      "name": "ゼンレスゾーンゼロ",
+      "color": "#f2c230",
+      "currency": "ポリクローム",
+      "rules": [
+        { "cat": "endgame", "pattern": "式輿防衛戦|危局強襲戦|臨界推演" }
+      ],
+      "source": {
+        "type": "hoyoverse",
+        "url": "https://sg-announcement-static.hoyoverse.com/common/nap_global/announcement/api/getAnnList?game=nap&game_biz=nap_global&lang=ja&bundle_id=nap_global&platform=pc&region=prod_gf_jp&level=60&uid=100000000&channel_id=1",
+        "samples": 6
+      }
+    },
+    {
+      "id": "monst",
+      "name": "モンスト",
+      "color": "#ff7a59",
+      "currency": "オーブ",
+      "rules": [
+        { "cat": "endgame", "pattern": "覇者の塔|禁忌の獄|未開の|天魔の孤城|黎絶|滅絶|超究極|破界の星墓" }
+      ],
+      "source": {
+        "type": "monst",
+        "base": "https://www.monster-strike.com",
+        "lists": ["/news/event/", "/news/campaign/", "/news/collab/", "/news/"],
+        "maxAgeDays": 45,
+        "maxPages": 30
+      }
+    },
+    {
+      "id": "pad",
+      "name": "パズドラ",
+      "color": "#5fd3a6",
+      "currency": "魔法石",
+      "rules": [
+        { "cat": "endgame", "pattern": "チャレンジ|称号|ランキング|カップ|ラッシュ" },
+        { "cat": "event", "pattern": "クエスト|降臨|コラボ" }
+      ],
+      "source": {
+        "type": "pad",
+        "base": "https://pad.gungho.jp",
+        "index": "/member/common/js/top.json",
+        "skip": "survey|lineup|sinka|adjust|updates|pdpass|live|story"
+      }
+    },
+    {
+      "id": "bluearchive",
+      "name": "ブルーアーカイブ",
+      "color": "#4fc3ff",
+      "currency": "青輝石",
+      "rules": [
+        { "cat": "endgame", "pattern": "総力戦|大決戦|制約解除決戦|合同火力演習|仮想適性試験" }
+      ],
+      "source": {
+        "type": "articles",
+        "listUrls": ["https://api-web.bluearchive.jp/api/news/list?typeId=0&pageNum=16&pageIndex=1"],
+        "rows": "data.rows", "id": "id", "title": "summary", "date": "publishTime", "content": "content",
+        "url": "https://bluearchive.jp/news/newsJump"
+      }
+    },
+    {
+      "id": "umamusume",
+      "name": "ウマ娘",
+      "color": "#ff8fc7",
+      "currency": "ジュエル",
+      "rules": [
+        { "cat": "endgame", "pattern": "チャンピオンズミーティング|リーグオブヒーローズ|マスターズチャレンジ|レーシングカーニバル" }
+      ],
+      "source": {
+        "type": "articles",
+        "listUrls": ["https://umamusume.jp/api/ajax/pr_info_index?format=json&announce_label=1&device&per_page=20&page=1"],
+        "rows": "information_list", "id": "announce_id", "title": "title", "date": "post_at", "image": "image",
+        "detailUrl": "https://umamusume.jp/api/ajax/pr_info_detail?format=json&announce_id={id}&device",
+        "detailPath": "detail.message",
+        "url": "https://umamusume.jp/news/detail?id={id}",
+        "loose": true, "maxAgeDays": 30, "maxPages": 20
+      }
+    },
+    {
+      "id": "fgo",
+      "name": "FGO",
+      "color": "#e8c15a",
+      "currency": "聖晶石",
+      "rules": [
+        { "cat": "endgame", "pattern": "高難易度|レイド|聖杯戦線" }
+      ],
+      "source": {
+        "type": "articles",
+        "listUrls": ["https://news.fate-go.jp/"],
+        "base": "https://news.fate-go.jp",
+        "linkPattern": "href=\"(?<url>/20\\d\\d/\\d\\d/[\\w\\-]+/)\"",
+        "titleTrim": "^(【[^】]*】)+|\\s*[|｜].*$",
+        "maxPages": 20
+      }
+    },
+    {
+      "id": "arknights",
+      "name": "アークナイツ",
+      "color": "#9aa7b8",
+      "currency": "純正源石|合成玉",
+      "rules": [
+        { "cat": "endgame", "pattern": "危機契約|殲滅作戦|保全駐在|生息演算" }
+      ],
+      "source": {
+        "type": "articles",
+        "listUrls": ["https://www.arknights.jp/api/resource/news/list?index=1&size=16&type=latest"],
+        "rows": "data.rows", "id": "id", "title": "title", "date": "publishTime", "content": "content",
+        "url": "https://www.arknights.jp/news/{id}"
+      }
+    },
+    {
+      "id": "granblue",
+      "name": "グラブル",
+      "color": "#6f9bff",
+      "currency": "宝晶石",
+      "rules": [
+        { "cat": "endgame", "pattern": "古戦場|ドレッドバラージュ|ブレイブグラウンド|四象降臨|ヘイローまで" }
+      ],
+      "source": {
+        "type": "articles",
+        "listUrls": ["https://granbluefantasy.com/rcms-api/1/news?cnt=20&pageID=1&_lang=ja"],
+        "rows": "list", "id": "topics_id", "title": "subject", "date": "ymd", "content": "content",
+        "url": "https://granbluefantasy.com/ja/news/{id}/"
+      }
+    },
+    {
+      "id": "pjsekai",
+      "name": "プロセカ",
+      "color": "#33ccbb",
+      "currency": "クリスタル",
+      "source": {
+        "type": "sekai",
+        "base": "https://sekai-world.github.io/sekai-master-db-diff/",
+        "skip": "テスト",
+        "futureDays": 21
+      }
+    },
+    {
+      "id": "pokemongo",
+      "name": "ポケモンGO",
+      "color": "#ff5a5a",
+      "currency": "ポケコイン",
+      "rules": [
+        { "cat": "event", "pattern": "レイド|コミュニティ・デイ|リサーチ" }
+      ],
+      "source": {
+        "type": "articles",
+        "listUrls": ["https://pokemongo.com/ja/news"],
+        "base": "https://pokemongo.com",
+        "linkPattern": "href=\"(?<url>/ja/news/[\\w\\-]+)\"",
+        "titleTrim": "\\s*[–|｜-]\\s*Pok.*$",
+        "loose": true, "maxPages": 15
+      }
+    },
+    {
+      "id": "nyanko",
+      "name": "にゃんこ大戦争",
+      "color": "#f4e04d",
+      "currency": "ネコカン",
+      "source": {
+        "type": "articles",
+        "listUrls": ["https://battlecats.club/news/"],
+        "linkPattern": "href=\"(?<url>https://battlecats\\.club/news/game/[\\w\\-]+/)\"",
+        "titleTrim": "\\s*[|｜].*$",
+        "maxPages": 10
+      }
+    }
+  ]
+}
