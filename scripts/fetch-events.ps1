@@ -271,6 +271,11 @@ function Get-PathValue($obj, $path) {
   return $obj
 }
 function Convert-AnyDate($v, $fallback) {
+  # PowerShell 7 may hand us an already-parsed [datetime] (ISO strings in JSON).
+  if ($v -is [datetime]) {
+    if ($v.Kind -eq [System.DateTimeKind]::Unspecified) { return $v.Date }
+    return $v.ToUniversalTime().AddHours(9).Date
+  }
   $s = "$v"
   if ($s -match '^\d{12,13}$') { return (New-Object datetime(1970, 1, 1)).AddMilliseconds([double]$s).AddHours(9).Date }
   if ($s -match '^(\d{4})\D(\d{1,2})\D(\d{1,2})') { return New-Object datetime([int]$Matches[1], [int]$Matches[2], [int]$Matches[3]) }
@@ -382,6 +387,12 @@ $config = Read-Text (Join-Path $root 'data/games.json') | ConvertFrom-Json
 $outPath = Join-Path $root 'data/events.json'
 $previous = @()
 if (Test-Path $outPath) { $previous = @((Read-Text $outPath | ConvertFrom-Json).events) }
+# PowerShell 7 turns ISO date strings into [datetime] while parsing JSON; keep them as strings.
+foreach ($p in $previous) {
+  foreach ($f in 'start', 'end') {
+    if ($p.$f -is [datetime]) { $p.$f = $p.$f.ToUniversalTime().ToString('yyyy-MM-ddTHH:mm:ssZ', $inv) }
+  }
+}
 
 $now = [datetime]::UtcNow
 $events = @()
