@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T01:47:39Z",
+  "updatedAt": "2026-11-26T16:55:28Z",
   "failed": [],
   "categories": [
     {
@@ -159,11 +159,22 @@
       "url": "https://news.fate-go.jp/2026/11/mahoyo_cp/"
     },
     {
+      "id": "nyanko-15c0f706ab",
+      "game": "nyanko",
+      "title": "その他の14周年記念イベントも引き続き開催中！",
+      "cat": "campaign",
+      "reward": true,
+      "start": "2026-11-12T02:00:00Z",
+      "end": "2026-11-28T01:59:00Z",
+      "image": "https://battlecats.club/wp-content/uploads/2026/09/PC表示用.png",
+      "url": "https://battlecats.club/news/game/20261126_chosenbatsu/"
+    },
+    {
       "id": "nyanko-6cd613a9d9",
       "game": "nyanko",
       "title": "開催期間は2026年11月12日（木）11:00 ～ 2027年3月16日（火）10:59予定！",
       "cat": "event",
-      "reward": false,
+      "reward": true,
       "start": "2026-11-12T02:00:00Z",
       "end": "2026-11-28T01:59:00Z",
       "image": "https://battlecats.club/wp-content/uploads/2026/09/PC表示用.png",
@@ -731,6 +742,17 @@
       "url": ""
     },
     {
+      "id": "nyanko-964f9a5933",
+      "game": "nyanko",
+      "title": "14周年記念ガチャ「超選抜祭」開催期間（予定）",
+      "cat": "gacha",
+      "reward": false,
+      "start": "2026-11-26T02:00:00Z",
+      "end": "2026-12-01T01:59:00Z",
+      "image": "https://battlecats.club/wp-content/uploads/2026/09/PC表示用.png",
+      "url": "https://battlecats.club/news/game/20261126_chosenbatsu/"
+    },
+    {
       "id": "umamusume-19e252eb25",
       "game": "umamusume",
       "title": "エクストラステージ レース開催期間",
@@ -834,7 +856,7 @@
       "game": "monst",
       "title": "【無職転生×モンスト】コラボイベントが11/15より開催！｜クエストのボス×10",
       "cat": "event",
-      "reward": true,
+      "reward": false,
       "start": "2026-11-17T10:00:00Z",
       "end": "2026-12-02T02:59:00Z",
       "image": "https://www.monster-strike.com/assets_mt/upload/hfagha20261112.png",
@@ -1006,7 +1028,7 @@
       "url": ""
     },
     {
-      "id": "nyanko-7034c16da9",
+      "id": "nyanko-10b10d4dd2",
       "game": "nyanko",
       "title": "襲い来る暴風たちに立ち向かえ！暴風ステージが次々登場する「サイクロン祭」を開催！",
       "cat": "event",
@@ -1014,7 +1036,7 @@
       "start": "2026-11-20T02:00:00Z",
       "end": "2026-12-04T01:59:00Z",
       "image": "https://battlecats.club/wp-content/uploads/2026/09/PC表示用.png",
-      "url": "https://battlecats.club/news/game/20261112_14th/"
+      "url": "https://battlecats.club/news/game/20261126_14th-event/"
     },
     {
       "id": "fgo-ba245c7c3f",
@@ -1026,6 +1048,39 @@
       "end": "2026-12-04T03:59:00Z",
       "image": "https://www.fate-go.jp/images/fate_ogp_3500.png",
       "url": "https://news.fate-go.jp/2026/11/mahoyo_cp_pu/"
+    },
+    {
+      "id": "monst-cbdcb1e2ea",
+      "game": "monst",
+      "title": "【無職転生×モンスト】コラボイベントが11/15より開催！｜ミッション挑戦可能期間",
+      "cat": "campaign",
+      "reward": false,
+      "start": "2026-11-27T03:00:00Z",
+      "end": "2026-12-04T18:59:00Z",
+      "image": "https://www.monster-strike.com/assets_mt/upload/hfagha20261112.png",
+      "url": "https://www.monster-strike.com/news/20261112_2.html"
+    },
+    {
+      "id": "pad-1101b4a0f5",
+      "game": "pad",
+      "title": "期間中、魔法石ショップにて「魔法少女まどか☆マギカ」コラボのセット商品を販売！",
+      "cat": "event",
+      "reward": true,
+      "start": "2026-11-27T01:00:00Z",
+      "end": "2026-12-05T00:59:00Z",
+      "image": "https://pad.gungho.jp/member/collabo/madoka-magica/2611/img/top.jpg",
+      "url": "https://pad.gungho.jp/member/collabo/madoka-magica/2611/"
+    },
+    {
+      "id": "pad-1bc9115182",
+      "game": "pad",
+      "title": "魔法少女まどか☆マギカ×パズドラ コラボ実施！",
+      "cat": "event",
+      "reward": true,
+      "start": "2026-11-27T01:00:00Z",
+      "end": "2026-12-05T00:59:00Z",
+      "image": "https://pad.gungho.jp/member/collabo/madoka-magica/2611/img/top.jpg",
+      "url": "https://pad.gungho.jp/member/collabo/madoka-magica/2611/"
     },
     {
       "id": "monst-52131e1390",
@@ -1204,6 +1259,28 @@
       "url": "https://www.monster-strike.com/news/20261119_1.html"
     },
     {
+      "id": "monst-37098dd486",
+      "game": "monst",
+      "title": "ユーザーランクアップのチャンス！",
+      "cat": "event",
+      "reward": false,
+      "start": "2026-12-01T15:00:00Z",
+      "end": "2026-12-08T14:59:00Z",
+      "image": "https://www.monster-strike.com/assets/news/img/ogp/game_news/ogp.png",
+      "url": "https://www.monster-strike.com/news/20261126_2.html"
+    },
+    {
+      "id": "monst-ba6344da3c",
+      "game": "monst",
+      "title": "「英雄の神殿」の「スペシャル報酬」で、「ノーコンテニュー報酬」からわくわくの実が2個必ず排出！",
+      "cat": "event",
+      "reward": false,
+      "start": "2026-12-06T15:00:00Z",
+      "end": "2026-12-08T14:59:00Z",
+      "image": "https://www.monster-strike.com/assets/news/img/ogp/game_news/ogp.png",
+      "url": "https://www.monster-strike.com/news/20261126_2.html"
+    },
+    {
       "id": "bluearchive-c18203a429",
       "game": "bluearchive",
       "title": "（4）総力戦 「屋内・ホド」開催",
@@ -1213,6 +1290,17 @@
       "end": "2026-12-08T18:59:00Z",
       "image": "",
       "url": "https://bluearchive.jp/news/newsJump"
+    },
+    {
+      "id": "monst-afb08bb706",
+      "game": "monst",
+      "title": "また、期間中はパワー未発生のスポットがなくなります！",
+      "cat": "event",
+      "reward": false,
+      "start": "2026-12-01T19:00:00Z",
+      "end": "2026-12-08T18:59:00Z",
+      "image": "https://www.monster-strike.com/assets/news/img/ogp/game_news/ogp.png",
+      "url": "https://www.monster-strike.com/news/20261126_2.html"
     },
     {
       "id": "bluearchive-14ae8443dd",
@@ -1246,6 +1334,17 @@
       "end": "2026-12-09T14:59:00Z",
       "image": "https://www.fate-go.jp/images/fate_ogp_3500.png",
       "url": "https://news.fate-go.jp/2026/11/1111nico/"
+    },
+    {
+      "id": "nyanko-80d1b58818",
+      "game": "nyanko",
+      "title": "「にゃんこスロットⅡ」2回目開催期間（予定）",
+      "cat": "event",
+      "reward": true,
+      "start": "2026-11-26T02:00:00Z",
+      "end": "2026-12-09T14:59:00Z",
+      "image": "https://battlecats.club/wp-content/uploads/2026/09/PC表示用.png",
+      "url": "https://battlecats.club/news/game/20261126_14th-event/"
     },
     {
       "id": "pjsekai-gacha-4046",
@@ -1292,15 +1391,48 @@
       "url": "https://www.monster-strike.com/news/20261119_1.html"
     },
     {
-      "id": "nyanko-20bca50108",
+      "id": "nyanko-0e2a358908",
       "game": "nyanko",
       "title": "大量の経験値をゲット！「超ゲリ経験値スペシャル」開催！",
       "cat": "other",
-      "reward": true,
+      "reward": false,
       "start": "2026-11-12T02:00:00Z",
       "end": "2026-12-11T01:59:00Z",
       "image": "https://battlecats.club/wp-content/uploads/2026/09/PC表示用.png",
-      "url": "https://battlecats.club/news/game/20261112_14th/"
+      "url": "https://battlecats.club/news/game/20261126_14th-event/"
+    },
+    {
+      "id": "nyanko-dee23e0bb1",
+      "game": "nyanko",
+      "title": "ガマトト探検隊に経験値をいつもより多くゲットできるエリア「XP超収穫祭（初級・中級・上級・超上級）」登場！",
+      "cat": "other",
+      "reward": true,
+      "start": "2026-11-27T02:00:00Z",
+      "end": "2026-12-11T01:59:00Z",
+      "image": "https://battlecats.club/wp-content/uploads/2026/09/PC表示用.png",
+      "url": "https://battlecats.club/news/game/20261126_14th-event/"
+    },
+    {
+      "id": "nyanko-2e92d71843",
+      "game": "nyanko",
+      "title": "開催期間は2026年11月12日（木）11:00 ～ 2027年3月16日（火）10:59予定！",
+      "cat": "event",
+      "reward": false,
+      "start": "2026-11-28T02:00:00Z",
+      "end": "2026-12-12T01:59:00Z",
+      "image": "https://battlecats.club/wp-content/uploads/2026/09/PC表示用.png",
+      "url": "https://battlecats.club/news/game/20261126_14th-event/"
+    },
+    {
+      "id": "monst-fcd01ac15c",
+      "game": "monst",
+      "title": "メダルやマジックストーンを集めるチャンス！",
+      "cat": "event",
+      "reward": false,
+      "start": "2026-12-08T15:00:00Z",
+      "end": "2026-12-13T14:59:00Z",
+      "image": "https://www.monster-strike.com/assets/news/img/ogp/game_news/ogp.png",
+      "url": "https://www.monster-strike.com/news/20261126_2.html"
     },
     {
       "id": "arknights-0b6e9771e2",
@@ -1534,6 +1666,17 @@
       "url": ""
     },
     {
+      "id": "monst-f6b7fa5296",
+      "game": "monst",
+      "title": "「英雄の神殿」の「スペシャル報酬」で、「ノーコンテニュー報酬」からわくわくの実が2個必ず排出！",
+      "cat": "event",
+      "reward": false,
+      "start": "2026-12-13T15:00:00Z",
+      "end": "2026-12-15T14:59:00Z",
+      "image": "https://www.monster-strike.com/assets/news/img/ogp/game_news/ogp.png",
+      "url": "https://www.monster-strike.com/news/20261126_2.html"
+    },
+    {
       "id": "genshin-abyss-202611",
       "game": "genshin",
       "title": "深境螺旋（今期の星報酬）",
@@ -1589,6 +1732,83 @@
       "url": ""
     },
     {
+      "id": "monst-ee2e09dd44",
+      "game": "monst",
+      "title": "【2026年もありがとう】冬のストライカー応援CP！10連ガチャ値引き券が登場！｜ミッション挑戦可能期間",
+      "cat": "campaign",
+      "reward": false,
+      "start": "2026-12-02T03:00:00Z",
+      "end": "2026-12-16T18:59:00Z",
+      "image": "https://www.monster-strike.com/assets/news/img/ogp/game_news/ogp.png",
+      "url": "https://www.monster-strike.com/news/20261126_2.html"
+    },
+    {
+      "id": "monst-682f1392f1",
+      "game": "monst",
+      "title": "おひとり様1回限り、受け取りできます！",
+      "cat": "event",
+      "reward": false,
+      "start": "2026-12-02T03:00:00Z",
+      "end": "2026-12-17T14:59:00Z",
+      "image": "https://www.monster-strike.com/assets/news/img/ogp/game_news/ogp.png",
+      "url": "https://www.monster-strike.com/news/20261126_2.html"
+    },
+    {
+      "id": "monst-4301bc0593",
+      "game": "monst",
+      "title": "期間限定イベント「モンストクリスマス2026」がスタート！｜期間限定イベント開催期間",
+      "cat": "event",
+      "reward": true,
+      "start": "2026-12-02T03:00:00Z",
+      "end": "2026-12-18T02:59:00Z",
+      "image": "https://www.monster-strike.com/assets/news/img/ogp/game_news/ogp.png",
+      "url": "https://www.monster-strike.com/news/20261126_4.html"
+    },
+    {
+      "id": "monst-7e217bdaf2",
+      "game": "monst",
+      "title": "1枚につき1回、オーブ40個でガチャが引けるように！",
+      "cat": "gacha",
+      "reward": false,
+      "start": "2026-12-02T03:00:00Z",
+      "end": "2026-12-18T02:59:00Z",
+      "image": "https://www.monster-strike.com/assets/news/img/ogp/game_news/ogp.png",
+      "url": "https://www.monster-strike.com/news/20261126_2.html"
+    },
+    {
+      "id": "monst-27d81c5da2",
+      "game": "monst",
+      "title": "メダルやマジックストーンを集めるチャンス！",
+      "cat": "event",
+      "reward": false,
+      "start": "2026-12-13T15:00:00Z",
+      "end": "2026-12-18T14:59:00Z",
+      "image": "https://www.monster-strike.com/assets/news/img/ogp/game_news/ogp.png",
+      "url": "https://www.monster-strike.com/news/20261126_2.html"
+    },
+    {
+      "id": "monst-f5b97b8c9a",
+      "game": "monst",
+      "title": "また、期間中はパワー未発生のスポットがなくなります！",
+      "cat": "event",
+      "reward": false,
+      "start": "2026-12-08T19:00:00Z",
+      "end": "2026-12-18T18:59:00Z",
+      "image": "https://www.monster-strike.com/assets/news/img/ogp/game_news/ogp.png",
+      "url": "https://www.monster-strike.com/news/20261126_2.html"
+    },
+    {
+      "id": "monst-6db0a1e996",
+      "game": "monst",
+      "title": "「クラッシュトレジャー」開催期間",
+      "cat": "event",
+      "reward": false,
+      "start": "2026-12-02T03:00:00Z",
+      "end": "2026-12-20T18:59:00Z",
+      "image": "https://www.monster-strike.com/assets/news/img/ogp/game_news/ogp.png",
+      "url": "https://www.monster-strike.com/news/20261126_4.html"
+    },
+    {
       "id": "starrail-1452",
       "game": "starrail",
       "title": "Ver.4.7「ナナシの勲功」更新",
@@ -1598,6 +1818,17 @@
       "end": "2026-12-20T19:59:00Z",
       "image": "https://sdk.hoyoverse.com/upload/ann/2026/10/18/90f63139ef499ca70f9a01b653d8d8c8_8899210115903792394_transformed.png",
       "url": ""
+    },
+    {
+      "id": "monst-3793f1e779",
+      "game": "monst",
+      "title": "「破界の星墓」が12/1より期間限定で登場！本開催より新クエスト&一部階層が2グループに分かれて登場！｜」などの報酬をゲットできる！",
+      "cat": "endgame",
+      "reward": true,
+      "start": "2026-12-01T03:00:00Z",
+      "end": "2026-12-21T02:59:00Z",
+      "image": "https://www.monster-strike.com/assets/news/img/ogp/game_news/ogp.png",
+      "url": "https://www.monster-strike.com/news/20261126_1.html"
     },
     {
       "id": "umamusume-6cdec1dd1c",
@@ -1732,6 +1963,17 @@
       "url": "https://bluearchive.jp/news/newsJump"
     },
     {
+      "id": "monst-5b53fdd647",
+      "game": "monst",
+      "title": "「破界の星墓」が12/1より期間限定で登場！本開催より新クエスト&一部階層が2グループに分かれて登場！｜ミッション挑戦可能期間",
+      "cat": "campaign",
+      "reward": false,
+      "start": "2026-12-01T03:00:00Z",
+      "end": "2026-12-23T02:59:00Z",
+      "image": "https://www.monster-strike.com/assets/news/img/ogp/game_news/ogp.png",
+      "url": "https://www.monster-strike.com/news/20261126_1.html"
+    },
+    {
       "id": "umamusume-0113c67b3b",
       "game": "umamusume",
       "title": "トレーニングパス更新！",
@@ -1743,6 +1985,17 @@
       "url": "https://umamusume.jp/news/detail?id=3552"
     },
     {
+      "id": "nyanko-a77ce31ce0",
+      "game": "nyanko",
+      "title": "『にゃんこ大戦争』14周年記念イベント第2弾開催！ 「ネコカン」1014個以上が必ず当たる「にゃんこスロットⅡ」再び登場！｜14周年記念イベント開催期間",
+      "cat": "campaign",
+      "reward": true,
+      "start": "2026-11-12T02:00:00Z",
+      "end": "2026-12-25T01:59:00Z",
+      "image": "https://battlecats.club/wp-content/uploads/2026/09/PC表示用.png",
+      "url": "https://battlecats.club/news/game/20261126_14th-event/"
+    },
+    {
       "id": "nyanko-bf299ee917",
       "game": "nyanko",
       "title": "『にゃんこ大戦争』14周年記念イベント第1弾開催！ 「ネコカン」1014個以上が必ず当たる「にゃんこスロットⅡ」が登場！｜14周年記念イベント開催期間",
@@ -1752,6 +2005,17 @@
       "end": "2026-12-25T01:59:00Z",
       "image": "https://battlecats.club/wp-content/uploads/2026/09/PC表示用.png",
       "url": "https://battlecats.club/news/game/20261112_14th/"
+    },
+    {
+      "id": "nyanko-e284884688",
+      "game": "nyanko",
+      "title": "「レジェンドチケット」販売期間（予定）",
+      "cat": "shop",
+      "reward": false,
+      "start": "2026-11-27T02:00:00Z",
+      "end": "2026-12-25T01:59:00Z",
+      "image": "https://battlecats.club/wp-content/uploads/2026/09/PC表示用.png",
+      "url": "https://battlecats.club/news/game/20261126_14th-event/"
     },
     {
       "id": "nyanko-63e15ba967",
@@ -1809,15 +2073,15 @@
       "url": "https://pad.gungho.jp/member/event/2610_pad_thanks/"
     },
     {
-      "id": "monst-72d6c43deb",
+      "id": "monst-c133d09838",
       "game": "monst",
-      "title": "新難易度【滅絶（めつぜつ）】クエスト（フィロソフィア）が11/3より初登場！M4のライブ配信も！",
-      "cat": "endgame",
+      "title": "期間限定イベント「モンストクリスマス2026」がスタート！｜ルルネーヴェのグッジョブ",
+      "cat": "event",
       "reward": true,
-      "start": "2026-11-03T10:00:00Z",
-      "end": "2027-01-02T02:59:00Z",
+      "start": "2026-12-01T19:00:00Z",
+      "end": "2027-01-01T18:59:00Z",
       "image": "https://www.monster-strike.com/assets/news/img/ogp/game_news/ogp.png",
-      "url": "https://www.monster-strike.com/news/20261029_5.html"
+      "url": "https://www.monster-strike.com/news/20261126_4.html"
     },
     {
       "id": "pokemongo-c44ae8e220",
