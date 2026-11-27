@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T16:55:28Z",
+  "updatedAt": "2026-11-27T16:41:48Z",
   "failed": [],
   "categories": [
     {
@@ -114,50 +114,6 @@
     }
   ],
   "events": [
-    {
-      "id": "nyanko-ff49c5434e",
-      "game": "nyanko",
-      "title": "ガマトト探検隊にキャッツアイをいつもより多くゲットできる期間限定エリア「超ねこの目洞窟」登場！",
-      "cat": "event",
-      "reward": false,
-      "start": "2026-11-12T02:00:00Z",
-      "end": "2026-11-27T01:59:00Z",
-      "image": "https://battlecats.club/wp-content/uploads/2026/09/PC表示用.png",
-      "url": "https://battlecats.club/news/game/20261112_14th/"
-    },
-    {
-      "id": "monst-74cb0650dc",
-      "game": "monst",
-      "title": "期間限定クエスト（ゆふる）が再登場！こんきつねが稀に出現！",
-      "cat": "event",
-      "reward": true,
-      "start": "2026-11-20T03:00:00Z",
-      "end": "2026-11-27T02:59:00Z",
-      "image": "https://www.monster-strike.com/assets/news/img/ogp/game_news/ogp.png",
-      "url": "https://www.monster-strike.com/news/20261119_2.html"
-    },
-    {
-      "id": "monst-f77d1b315b",
-      "game": "monst",
-      "title": "「覇者の塔」「覇者の塔シーズンズ」11/7 12時より期間限定で登場！本開催より「4thシーズン」が追加！｜本開催の「物々引き換え」期間",
-      "cat": "endgame",
-      "reward": true,
-      "start": "2026-11-07T03:00:00Z",
-      "end": "2026-11-27T02:59:00Z",
-      "image": "https://www.monster-strike.com/assets/news/img/ogp/game_news/ogp.png",
-      "url": "https://www.monster-strike.com/news/20261105_4.html"
-    },
-    {
-      "id": "fgo-3bcd1a6267",
-      "game": "fgo",
-      "title": "『劇場アニメーション「魔法使いの夜」公開記念キャンペーン』開催！",
-      "cat": "campaign",
-      "reward": false,
-      "start": "2026-11-20T09:00:00Z",
-      "end": "2026-11-27T03:59:00Z",
-      "image": "https://www.fate-go.jp/images/fate_ogp_3500.png",
-      "url": "https://news.fate-go.jp/2026/11/mahoyo_cp/"
-    },
     {
       "id": "nyanko-15c0f706ab",
       "game": "nyanko",
@@ -654,28 +610,6 @@
       "url": ""
     },
     {
-      "id": "fgo-fa010f6275",
-      "game": "fgo",
-      "title": "「全世界1億DL突破キャンペーン」開催！",
-      "cat": "campaign",
-      "reward": true,
-      "start": "2026-11-07T11:00:00Z",
-      "end": "2026-11-30T18:59:00Z",
-      "image": "https://www.fate-go.jp/images/fate_ogp_3500.png",
-      "url": "https://news.fate-go.jp/2026/10/100mdl/"
-    },
-    {
-      "id": "monst-02c98bd134",
-      "game": "monst",
-      "title": "」をはじめとした火属性、木属性の限定キャラクターも排出対象になります！",
-      "cat": "event",
-      "reward": true,
-      "start": "2026-10-31T19:00:00Z",
-      "end": "2026-11-30T18:59:00Z",
-      "image": "https://www.monster-strike.com/assets/news/img/ogp/game_news/ogp.png",
-      "url": "https://www.monster-strike.com/news/20261030_1.html"
-    },
-    {
       "id": "monst-8366041770",
       "game": "monst",
       "title": "「よりどりガチャマーケット」にある好きなガチャを選んで、ガチャを引こう！",
@@ -797,6 +731,17 @@
       "url": ""
     },
     {
+      "id": "monst-06d4b811b3",
+      "game": "monst",
+      "title": "「英雄の神殿」の「スペシャル報酬」で、「ノーコンテニュー報酬」からわくわくの実が2個必ず排出！",
+      "cat": "event",
+      "reward": false,
+      "start": "2026-11-28T15:00:00Z",
+      "end": "2026-12-01T14:59:00Z",
+      "image": "https://www.monster-strike.com/assets/news/img/ogp/game_news/ogp.png",
+      "url": "https://www.monster-strike.com/news/20261127_1.html"
+    },
+    {
       "id": "monst-09cc964d14",
       "game": "monst",
       "title": "」やコラボ限定グッジョブもゲット！",
@@ -806,6 +751,17 @@
       "end": "2026-12-01T18:59:00Z",
       "image": "https://www.monster-strike.com/assets_mt/upload/hfagha20261112.png",
       "url": "https://www.monster-strike.com/news/20261112_2.html"
+    },
+    {
+      "id": "monst-c60e61f33b",
+      "game": "monst",
+      "title": "また、期間中はパワー未発生のスポットがなくなります！",
+      "cat": "event",
+      "reward": false,
+      "start": "2026-11-28T19:00:00Z",
+      "end": "2026-12-01T18:59:00Z",
+      "image": "https://www.monster-strike.com/assets/news/img/ogp/game_news/ogp.png",
+      "url": "https://www.monster-strike.com/news/20261127_1.html"
     },
     {
       "id": "zzz-1343",
@@ -1039,6 +995,39 @@
       "url": "https://battlecats.club/news/game/20261126_14th-event/"
     },
     {
+      "id": "fgo-3bcd1a6267",
+      "game": "fgo",
+      "title": "『劇場アニメーション「魔法使いの夜」公開記念キャンペーン』開催！",
+      "cat": "campaign",
+      "reward": false,
+      "start": "2026-11-20T09:00:00Z",
+      "end": "2026-12-04T03:59:00Z",
+      "image": "https://www.fate-go.jp/images/fate_ogp_3500.png",
+      "url": "https://news.fate-go.jp/2026/11/mahoyo_cp/"
+    },
+    {
+      "id": "fgo-95670cf3de",
+      "game": "fgo",
+      "title": "【「冠位戴冠戦：Berserker」ストーム･ポッド消費0！キャンペーン】",
+      "cat": "campaign",
+      "reward": false,
+      "start": "2026-11-27T09:00:00Z",
+      "end": "2026-12-04T03:59:00Z",
+      "image": "https://www.fate-go.jp/images/fate_ogp_3500.png",
+      "url": "https://news.fate-go.jp/2026/11/2026_grand_berserker_saber_archer_lancer/"
+    },
+    {
+      "id": "fgo-a86befea59",
+      "game": "fgo",
+      "title": "『劇場アニメーション「魔法使いの夜」公開記念キャンペーン』開催！",
+      "cat": "campaign",
+      "reward": false,
+      "start": "2026-11-27T09:00:00Z",
+      "end": "2026-12-04T03:59:00Z",
+      "image": "https://www.fate-go.jp/images/fate_ogp_3500.png",
+      "url": "https://news.fate-go.jp/2026/11/mahoyo_cp/"
+    },
+    {
       "id": "fgo-ba245c7c3f",
       "game": "fgo",
       "title": "『劇場アニメーション「魔法使いの夜」公開記念 ピックアップ召喚』期間",
@@ -1114,6 +1103,17 @@
       "end": "2026-12-06T04:00:00Z",
       "image": "",
       "url": "https://pokemongo.com/ja/news/gigantamax-inteleon-max-battle-day-2026"
+    },
+    {
+      "id": "granblue-eb0555db89",
+      "game": "granblue",
+      "title": "イベント「偶像にさよならを」開催のお知らせ｜イベント「偶像にさよならを」",
+      "cat": "event",
+      "reward": false,
+      "start": "2026-11-28T08:00:00Z",
+      "end": "2026-12-06T11:59:00Z",
+      "image": "",
+      "url": "https://granbluefantasy.com/ja/news/9795/"
     },
     {
       "id": "arknights-553d840265",
@@ -1204,6 +1204,17 @@
       "url": ""
     },
     {
+      "id": "pjsekai-gacha-4072",
+      "game": "pjsekai",
+      "title": "[AWAKE Real Pulse 開催記念]プレミアムプレゼントガチャ",
+      "cat": "gacha",
+      "reward": false,
+      "start": "2026-11-28T03:00:00Z",
+      "end": "2026-12-07T02:59:59Z",
+      "image": "",
+      "url": ""
+    },
+    {
       "id": "pokemongo-54fc927bad",
       "game": "pokemongo",
       "title": "『Pokémon GO』の「熱帯楽園」イベントで南国気分を味わおう！",
@@ -1237,15 +1248,15 @@
       "url": "https://pokemongo.com/ja/news/tropical-paradise-2026"
     },
     {
-      "id": "fgo-c46ee14397",
-      "game": "fgo",
-      "title": "「全世界1億DL突破キャンペーン」開催！",
+      "id": "genshin-22032",
+      "game": "genshin",
+      "title": "Webイベント「幻境メモリアル」開催！参加して期間限定報酬を獲得しよう！",
       "cat": "campaign",
       "reward": false,
-      "start": "2026-11-07T12:00:00Z",
-      "end": "2026-12-07T14:59:00Z",
-      "image": "https://www.fate-go.jp/images/fate_ogp_3500.png",
-      "url": "https://news.fate-go.jp/2026/10/100mdl/"
+      "start": "2026-11-27T09:00:00Z",
+      "end": "2026-12-07T19:59:59Z",
+      "image": "https://sdk.hoyoverse.com/upload/ann/2026/11/26/d427dd0a853f2b3a3c3c118f342f2510_7456238920323524881_transformed.png",
+      "url": ""
     },
     {
       "id": "monst-d78f69a080",
@@ -1325,6 +1336,17 @@
       "url": "https://bluearchive.jp/news/newsJump"
     },
     {
+      "id": "fgo-d707e79ef6",
+      "game": "fgo",
+      "title": "【「冠位戴冠戦：Saber」ストーム･ポッド消費0！キャンペーン】",
+      "cat": "campaign",
+      "reward": false,
+      "start": "2026-12-02T09:00:00Z",
+      "end": "2026-12-09T03:59:00Z",
+      "image": "https://www.fate-go.jp/images/fate_ogp_3500.png",
+      "url": "https://news.fate-go.jp/2026/11/2026_grand_berserker_saber_archer_lancer/"
+    },
+    {
       "id": "fgo-66fd076e11",
       "game": "fgo",
       "title": "《「謎特異点 FINAL」開催記念 「FGO Fes. 2026」リアル脱出ゲームの期間限定復刻が決定！》",
@@ -1367,6 +1389,39 @@
       "end": "2026-12-09T18:59:00Z",
       "image": "",
       "url": "https://www.arknights.jp/news/5160"
+    },
+    {
+      "id": "arknights-a741ff26c2",
+      "game": "arknights",
+      "title": "アークナイツ × モンスターハンター 復刻開催！｜★1 テラ大陸調査団",
+      "cat": "event",
+      "reward": false,
+      "start": "2026-11-30T07:00:00Z",
+      "end": "2026-12-09T18:59:00Z",
+      "image": "",
+      "url": "https://www.arknights.jp/news/5221"
+    },
+    {
+      "id": "arknights-d748f9e08a",
+      "game": "arknights",
+      "title": "アークナイツ × モンスターハンター 復刻開催！｜アイルーの受付カウンター",
+      "cat": "event",
+      "reward": false,
+      "start": "2026-11-30T07:00:00Z",
+      "end": "2026-12-09T18:59:00Z",
+      "image": "",
+      "url": "https://www.arknights.jp/news/5221"
+    },
+    {
+      "id": "arknights-e67c897c36",
+      "game": "arknights",
+      "title": "アークナイツ × モンスターハンター 復刻開催！｜蒼暮山地",
+      "cat": "event",
+      "reward": false,
+      "start": "2026-11-30T07:00:00Z",
+      "end": "2026-12-09T18:59:00Z",
+      "image": "",
+      "url": "https://www.arknights.jp/news/5221"
     },
     {
       "id": "monst-47e4036a1a",
@@ -1422,6 +1477,17 @@
       "end": "2026-12-12T01:59:00Z",
       "image": "https://battlecats.club/wp-content/uploads/2026/09/PC表示用.png",
       "url": "https://battlecats.club/news/game/20261126_14th-event/"
+    },
+    {
+      "id": "fgo-38afcd62e1",
+      "game": "fgo",
+      "title": "【「冠位戴冠戦：Archer」ストーム･ポッド消費0！キャンペーン】",
+      "cat": "campaign",
+      "reward": false,
+      "start": "2026-12-06T09:00:00Z",
+      "end": "2026-12-13T03:59:00Z",
+      "image": "https://www.fate-go.jp/images/fate_ogp_3500.png",
+      "url": "https://news.fate-go.jp/2026/11/2026_grand_berserker_saber_archer_lancer/"
     },
     {
       "id": "monst-fcd01ac15c",
@@ -1490,6 +1556,28 @@
       "url": "https://www.arknights.jp/news/5088"
     },
     {
+      "id": "arknights-7aa2b8e662",
+      "game": "arknights",
+      "title": "アークナイツ × モンスターハンター 復刻開催！",
+      "cat": "event",
+      "reward": false,
+      "start": "2026-11-30T07:00:00Z",
+      "end": "2026-12-13T18:59:00Z",
+      "image": "",
+      "url": "https://www.arknights.jp/news/5221"
+    },
+    {
+      "id": "arknights-945db1e66b",
+      "game": "arknights",
+      "title": "★5 レウスSノイルホーン（期間限定）",
+      "cat": "event",
+      "reward": false,
+      "start": "2026-11-30T07:00:00Z",
+      "end": "2026-12-13T18:59:00Z",
+      "image": "",
+      "url": "https://www.arknights.jp/news/5221"
+    },
+    {
       "id": "arknights-c0a90ffb19",
       "game": "arknights",
       "title": "アークナイツ × モンスターハンター コラボ開催！｜★5特訓招待状 × 2",
@@ -1499,6 +1587,28 @@
       "end": "2026-12-13T18:59:00Z",
       "image": "",
       "url": "https://www.arknights.jp/news/5088"
+    },
+    {
+      "id": "arknights-c7876bf002",
+      "game": "arknights",
+      "title": "アークナイツ × モンスターハンター 復刻開催！｜アーツ学Ⅰ × 10",
+      "cat": "event",
+      "reward": false,
+      "start": "2026-11-30T07:00:00Z",
+      "end": "2026-12-13T18:59:00Z",
+      "image": "",
+      "url": "https://www.arknights.jp/news/5221"
+    },
+    {
+      "id": "arknights-e01ad10ec9",
+      "game": "arknights",
+      "title": "購買部のインテリアショップにて、人気シリーズ「紅葉そよぐ旅籠屋」の一部が復刻入荷！",
+      "cat": "shop",
+      "reward": false,
+      "start": "2026-11-30T07:00:00Z",
+      "end": "2026-12-13T18:59:00Z",
+      "image": "",
+      "url": "https://www.arknights.jp/news/5221"
     },
     {
       "id": "arknights-ffcc5cd998",
@@ -1741,6 +1851,28 @@
       "end": "2026-12-16T18:59:00Z",
       "image": "https://www.monster-strike.com/assets/news/img/ogp/game_news/ogp.png",
       "url": "https://www.monster-strike.com/news/20261126_2.html"
+    },
+    {
+      "id": "fgo-757db0738d",
+      "game": "fgo",
+      "title": "『「冠位戴冠戦：Berserker」＆「冠位戴冠戦：Saber」＆「冠位戴冠戦：Archer」＆「冠位戴冠戦：Lancer」ストーム･ポッド消費0！キャンペーン』開催！",
+      "cat": "campaign",
+      "reward": false,
+      "start": "2026-11-27T09:00:00Z",
+      "end": "2026-12-17T03:59:00Z",
+      "image": "https://www.fate-go.jp/images/fate_ogp_3500.png",
+      "url": "https://news.fate-go.jp/2026/11/2026_grand_berserker_saber_archer_lancer/"
+    },
+    {
+      "id": "fgo-c6c3f7738b",
+      "game": "fgo",
+      "title": "【「冠位戴冠戦：Lancer」ストーム･ポッド消費0！キャンペーン】",
+      "cat": "campaign",
+      "reward": false,
+      "start": "2026-12-10T09:00:00Z",
+      "end": "2026-12-17T03:59:00Z",
+      "image": "https://www.fate-go.jp/images/fate_ogp_3500.png",
+      "url": "https://news.fate-go.jp/2026/11/2026_grand_berserker_saber_archer_lancer/"
     },
     {
       "id": "monst-682f1392f1",
